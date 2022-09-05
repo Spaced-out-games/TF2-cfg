@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Dec 22 19:59:43 AM
+// File generated:  Mon Jul 25 20:43:39 AM
 //
 //
 // Cvar	-	Setting
@@ -324,7 +324,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_AutoMedicCallThreshold"
 		"#Tooltip_AutoMedicCallThreshold"
 		{ SLIDER 10 99 }
-		{ "30.940001" }
+		{ "99" }
 	}
 
 	"category4"
@@ -385,7 +385,7 @@ DESCRIPTION INFO_OPTIONS
 		"#GameUI_HudPlayerClassUsePlayerModel"
 		"#ToolTip_HudPlayerClassUsePlayerModel"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"viewmodel_fov"
@@ -480,7 +480,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_TargetID_Alpha"
 		"#ToolTip_TargetID_Alpha"
 		{ SLIDER 0 255 }
-		{ "104.32" }
+		{ "100" }
 	}
 
 	"tf_contract_progress_show"
@@ -534,7 +534,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_UseMatchHUD"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"category5"
@@ -618,7 +618,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_DisableHTMLMOTD"
 		"#Tooltip_DisableHTMLMOTD"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"mp_decals"
@@ -626,7 +626,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_Multiplayer_Decal_Limit"
 		"#Tooltip_Multiplayer_Decal_Limit"
 		{ NUMBER 0 4096 }
-		{ "100" }
+		{ "32" }
 	}
 
 	"category7"
@@ -680,7 +680,7 @@ DESCRIPTION INFO_OPTIONS
 		"#GameUI_DisableSprays"
 		"#Tooltip_DisableSprays"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_delete_temp_files"

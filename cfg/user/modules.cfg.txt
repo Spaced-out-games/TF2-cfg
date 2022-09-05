@@ -1,0 +1,2 @@
+mod_support=on
+dynamic_background=preload
